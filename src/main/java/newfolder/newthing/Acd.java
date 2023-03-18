@@ -168,7 +168,7 @@ public class Acd {
 			 Thread.sleep(4000);
 			 WebElement Online_Rate = driver.findElement(By.xpath("(//div[@class='row-style']//div[@class='overview-box-amount'])[4]"));//(//div[@class='row-style']//div[@class='overview-box-amount'])[1]
 			 String Onlin_Rat = Online_Rate.getText();
-			 System.out.println(" Online Rate in Ovwerview page "+ Onlin_Rat);
+			 System.out.println(" Online Rate in Ovwerview page "+ Onlin_Rat); //EVAG savwe
 		    	 }
 		    	 
 		    	 @AfterTest

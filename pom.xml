@@ -20,6 +20,7 @@
 
     <!-- Maven extentions version -->
     <maven-archetype-packaging-extension-version>2.2</maven-archetype-packaging-extension-version>
+    <jenkins.e2eTests.reportsDirectory>target/protractor-reports</jenkins.e2eTests.reportsDirectory>
 </properties>
 
   <dependencies>
